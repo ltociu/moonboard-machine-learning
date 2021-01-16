@@ -15,4 +15,4 @@ Machine learning Jupyter notebooks and Python scripts:
 
 
 Jupyter notebook webscraping -- Proof of principle:
-- WebScrape_Moonboard.ipynb: Shows a basic sequence of steps to download new Moonboard problems added to the website on a given day. It requires the coder to input password and username manually and possibly supervise the Selenium browser, though, since they have anti-robot software.
+- WebScrape_Moonboard.ipynb: Shows a basic sequence of steps to download new Moonboard problems added to the website since the database of problems we have was last updated. It requires the coder to input password and username manually and possibly supervise the Selenium browser, though, since they have anti-robot software.
