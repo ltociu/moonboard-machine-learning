@@ -11,8 +11,8 @@ Jupyter notebook pre-processing scripts:
 - draw_problem.py: This is a helper script that draws the problem submatrices or the full problems starting from the holds in text format (ie [A5, F13, H8, etc]). It opens the “hold_difficulty.csv” to know what values to use at the center of the submatrices.
 
 Machine learning Jupyter notebooks and Python scripts:
-- Machine_learning_custom_convolution.ipynb: Runs machine learning and evaluates the accuracy of the model. Preliminary machine learning runs were done to determine the adequate number of epochs etc. Only best result is shown here. Lastly, the notebook saves the ML model in a way that it can be loaded to use when grading problems in real time.
+- Machine_learning_custom_convolution.ipynb: Runs machine learning and evaluates the accuracy of the model. Preliminary machine learning runs were done to determine the adequate number of epochs etc. Only best result is shown here. 
 
 
 Jupyter notebook webscraping -- Proof of principle:
-- WebScrape_Moonboard.ipynb: Shows a basic sequence of steps to browse through Problems Created by Active Users on the Moonboard website. This basic workflow, if implemented, could download new problems added every day to a MySQL database and grade them as they are added.
+- WebScrape_Moonboard.ipynb: Shows a basic sequence of steps to download new Moonboard problems added to the website on a given day. It requires the coder to input password and username manually and possibly supervise the Selenium browser, though, since they have anti-robot software.
