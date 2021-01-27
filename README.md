@@ -1,4 +1,4 @@
-# moonboard_ML
+# moonboard_machine_learning
 
  Software architecture: 
  
